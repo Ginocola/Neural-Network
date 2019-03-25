@@ -23,7 +23,7 @@ init = tf.initialize_all_variables()
 sess = tf.Session()
 sess.run(init)
 
-
+dafdafda
 for step in range(201):
     sess.run(train)
     if step%20 == 0:
