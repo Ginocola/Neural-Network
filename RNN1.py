@@ -39,7 +39,7 @@ biases = {
 def RNN(X, weights, biases):
     # hidden layer for input to cell
     ########################################
-
+    # X(128 batch, 28 steps, 28 inputs)
     # transpose the inputs shape from
     # X ==> (128 batch * 28 steps, 28 inputs)
     X = tf.reshape(X, [-1, n_inputs])
